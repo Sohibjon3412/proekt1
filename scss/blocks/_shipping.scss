@@ -8,9 +8,6 @@
     position: relative;
   }
 
-  &__wrap {
-  }
-
   &__title {
     font-weight: 600;
     font-size: 30px;
@@ -50,8 +47,6 @@
     margin-top: 36px;
   }
 
-  &__inner {
-  }
 
   &__img {
     max-width: 100%;
@@ -61,7 +56,6 @@
 @media screen and(max-width:768px) {
   .shipping__sec {
     flex-direction: column;
-    // flex-flow: row-reverse;
   }
   .shipping__title {
     position: absolute;
